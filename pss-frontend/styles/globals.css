@@ -1,0 +1,213 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* ************************************ HEADER STYLES *********************/
+
+.fijo {
+  position: fixed !important;
+  width: 100%;
+  height: 82px;
+  left: 0;
+	top: 0;
+}
+
+.navBar {
+  min-height: 82px;
+  position: static !important;
+}
+
+.userAndButton {
+  display: flex;
+}
+
+.userName {
+  margin-right: 25px;
+}
+
+.textUser {
+  padding-top: 8px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #75293D;
+}
+
+/***************************** LOGIN STYLES ***********************/
+
+.containerLogin {
+  width: 100%;
+  height: 45rem;
+}
+
+.containerCardLogin {
+  display: flex;
+  width: 60%;
+  height: 25rem;
+  border-radius: 5px 5px 5px 5px;
+  margin: 2rem auto;
+  margin-top: 10rem;
+  box-shadow: 2px 1px 18px 0px;
+}
+
+.halfJPG {
+  width: 50%;
+}
+
+.halfWhite {
+  width: 50%;
+}
+
+.imgAngel {
+  width: 100%;
+  min-height: 399.5px;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.titleSesion {
+  text-align: center;
+  color:  #75293D;
+}
+
+.divInputs {
+  display: flex;
+  justify-content: space-around;
+  margin: 4rem;
+}
+
+
+.divContra {
+text-align: center;
+}
+
+.divContra > h3 {
+  opacity: .5;
+}
+/***************************** controlSS STYLES ***********************/
+
+.layoutss {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 12rem;
+}
+
+.cardText {
+  color: #75293D !important;
+  text-align: center;
+}
+
+.buttonIngresar {
+  background-color: #75293D !important;
+  border: 1px solid #75293D !important;
+}
+
+.centerButton {
+  text-align: center;
+}
+
+/***************************** PRE-REGISTRO STYLES ***********************/
+
+.containerStyles {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-top: 120px;
+}
+
+.titleSesionPre {
+  margin-top: 2rem;
+  text-align: center;
+  color:  #75293D;
+}
+
+.subTitlePre {
+  text-align: center;
+  color:  #75293D;
+  font-size: 20px;
+}
+
+.spaceTitle{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.dispFlex {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  justify-content: left;
+}
+
+.dispFlex label {
+  width: 100px;
+  display:flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.pad {
+  margin-right: 90px !important;
+  display: flex;
+  padding-top: 2rem;
+}
+
+.centerButtonModules {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+
+/***************************** CONSULTA REGISTROS STYLES ***********************/
+
+.orderList {
+  margin-top: 5rem;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.list > li {
+  font-size: 18px;
+}
+
+.colorbtn {
+  border: 1px solid #75293D !important;
+  color: #75293D !important;
+}
+
+.colorbtn:hover {
+  background-color: #75293D !important;
+  color: white !important;
+  box-shadow: none !important;
+}
+
+.layoutProcess {
+  text-align: center;
+}
+
+.tableTop {
+  margin-top: 5rem;
+}
+
+/******************************************* CUSTOM INPUT **********************************/
+.customBotom {
+  margin-bottom: 1rem !important;
+}
+
+.divCenter {
+  text-align: center;
+}
